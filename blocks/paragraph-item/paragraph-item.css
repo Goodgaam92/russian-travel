@@ -1,4 +1,4 @@
-.place__paragraph_item {
+.paragraph-item {
     margin: 0 0 26px 0px;
     font-family: 'Inter', Arial, sans-serif;
     font-style: normal;
@@ -9,7 +9,7 @@
 
 }
 @media screen and (max-width: 1023px) {
-    .place__paragraph_item {
+    .paragraph-item {
       font-size: 16px;
     }
 }
