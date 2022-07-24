@@ -1,14 +1,28 @@
 .place {
     display: grid;
-    grid-template-columns: 1fr 484px;
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: auto auto auto;
-    gap: 40px 48px;
+    gap: 48px 40px;
     margin-bottom: 80px;
 }
+@media screen and (max-width: 1279px) {
+    .place {
+        gap: 48px 32px;
+    }
+}
+    @media screen and (max-width: 1023px) {
+        .place {
+            gap: 48px 28px;
+        }
+    }
 @media screen and (max-width: 767px) {
     .place {
-        display: flex;
-        flex-direction: column;
-        
+        grid-template-columns: 100%;
+        gap: 32px;
+        grid-template-areas: 
+        "title"
+        "website"
+        "image"
+        "paragraphs";
     }
-  }
+}

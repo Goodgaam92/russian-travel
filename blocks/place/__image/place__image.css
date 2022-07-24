@@ -1,21 +1,24 @@
 .place__image {
-    grid-column-start: 1;
-    grid-row:2 / span 2;
-    
+  grid-column-start: 1;
+  grid-row: 2 / span 2;
+
 }
+
 @media screen and (max-width: 1279px) {
-    .place__image {
-      max-width: 440px;
-    }
+  .place__image {
+    max-width: 440px;
   }
-  
-  @media screen and (max-width: 1023px) {
-    .place__image {
-      max-width: 340px;
-    }
+}
+
+@media screen and (max-width: 1023px) {
+  .place__image {
+    max-width: 340px;
   }
-  @media screen and (max-width: 767px) {
-    .place__image {
-      max-width: 320px;
-    }
+}
+
+@media screen and (max-width: 767px) {
+  .place__image {
+    max-width: 320px;
+    grid-area: image;
   }
+}
