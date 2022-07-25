@@ -3,7 +3,7 @@
     flex-direction: column;
     flex-wrap: wrap;
     max-width: 1184px;
-    height: 42px;
+    min-height: 42px;
     margin: 92px auto 0 auto;
 }
 

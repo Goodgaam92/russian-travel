@@ -1,23 +1,30 @@
 .place {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto auto auto;
+    grid-template-columns: 460px 1fr;
+    grid-template-rows: auto 460px;
     gap: 48px 40px;
-    margin-bottom: 80px;
+    margin-bottom: 32px;
 }
 @media screen and (max-width: 1279px) {
     .place {
+        grid-template-columns: 440px 1fr;
+    grid-template-rows: auto 440px;
         gap: 48px 32px;
     }
 }
     @media screen and (max-width: 1023px) {
         .place {
+            grid-template-columns: 340px 1fr;
+    grid-template-rows: auto auto;
             gap: 48px 28px;
+            margin-bottom: 25px;
         }
     }
 @media screen and (max-width: 767px) {
     .place {
+        margin-bottom: 50px;
         grid-template-columns: 100%;
+        grid-template-rows: 1fr;
         gap: 32px;
         grid-template-areas: 
         "title"

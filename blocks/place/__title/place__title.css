@@ -23,5 +23,6 @@
         font-size: 32px;
         line-height: 35px;
         grid-area: title;
+        margin: 0 16px;
     }
 }
