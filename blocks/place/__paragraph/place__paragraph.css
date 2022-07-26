@@ -1,24 +1,26 @@
-.paragraph-item {
-    margin: 0 0 25px 0px;
-    font-family: 'Inter', Arial, sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 163%;
-    color: #FFFFFF;
+.place__paragraph {
+  margin: 0 0 25px 0px;
+  font-family: 'Inter', Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 163%;
+  color: #FFFFFF;
 }
-  .paragraph-item:last-child {
-    margin-bottom: 0;
-  }
+
+.place__paragraph:last-child {
+  margin-bottom: 0;
+}
 
 
 @media screen and (max-width: 1023px) {
-    .paragraph-item {
-      font-size: 16px;
-    }
+  .place__paragraph {
+    font-size: 16px;
+  }
 }
+
 @media screen and (max-width: 767px) {
-  .paragraph-item {
+  .place__paragraph {
     font-size: 16px;
     margin-left: 16px;
     margin-right: 16px;

@@ -20,8 +20,3 @@
   }
 }
 
-@media screen and (max-width: 767px) {
-  .lead {
-    max-width: 288px;
-  }
-}
